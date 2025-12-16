@@ -8,7 +8,7 @@ Here’s a comprehensive breakdown of how to manage evolving schema.
 
 - Core Philosophy: The Rules of the Game
   
-1. The golden rule is never to make a breaking change. A breaking change forces all consumers (other services, applications, reports) to update simultaneously. Your goal is to make changes **backward compatible** and, where possible, **forward compatible.**
+1. The golden rule is never to make a breaking change. A breaking change forces all consumers (other  services, applications, reports) to update simultaneously. Your goal is to make changes **backward compatible** and, where possible, **forward compatible.**
 
 i. Backward Compatibility:
 Older clients/code can work with the new schema. (e.g., Adding a new optional field to an API response).
